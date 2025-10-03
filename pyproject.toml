@@ -1,0 +1,26 @@
+[project]
+name = "comoving"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9,<3.10"
+dependencies = [
+    "astropy",
+    "h5py",
+    "healpy>=1.17.3",
+    "matplotlib",
+    "numpy>=1.19",
+    "pandas>=2.3.2",
+    "pathlib",
+    "tables>=3.9.2",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]
+
+[tool.uv.workspace]
+members = [
+    "numpy",
+]

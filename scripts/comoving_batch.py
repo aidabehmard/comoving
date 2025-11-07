@@ -1,3 +1,5 @@
+import pathlib
+
 # TODO: set a path to cache files?
 cache_path = pathlib.Path(__file__).parent / "cache"
 

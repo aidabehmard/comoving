@@ -1,0 +1,1 @@
+#DISBATCH REPEAT 8 start 0 python comoving_batch.py -i ${DISBATCH_REPEAT_INDEX} &> disBatch/logs/disbatch_${DISBATCH_REPEAT_INDEX}.log

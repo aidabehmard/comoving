@@ -9,8 +9,6 @@ import pandas as pd
 from astropy.table import Table, QTable
 from astropy.io import fits
 
-%matplotlib inline
-
 pd.options.mode.copy_on_write = True
 
 # full Gaia dataset stored on FI servers
